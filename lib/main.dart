@@ -62,8 +62,12 @@ class _MyHomePageState extends State<MyHomePage> {
             width: 200.0,
             height: 200.0,
             ),
-          
             SizedBox(height: 30.0),
+            SvgPicture.asset(
+            'assets/images/componente-barra.svg', 
+            width: 350.0,
+            height: 10.0,
+            ),
             SizedBox(
               width: 350,
               child: TextFormField(
@@ -156,7 +160,7 @@ class _MyHomePageState extends State<MyHomePage> {
                  'assets/images/logo-seduc.png', 
               ),
            )
-
+      
           ],
           
           ),
